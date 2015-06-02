@@ -20,7 +20,7 @@ if v:version >= 702
 set   autoindent
 set   autoread
 set   autowrite
-set	  autochdir
+set   autochdir
 set   background=dark
 set   backspace=indent,eol,start
 set   nobackup
