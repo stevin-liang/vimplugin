@@ -59,6 +59,8 @@ set   wildignore=*.bak,*.o,*.e,*~
 set   wildmenu
 set   wildmode=list:longest,full
 set nowrap
+set tags=tags;
+set tags+=./tags
 endif
 " Config for vim73
 if v:version >= 703
@@ -115,6 +117,7 @@ let g:Tlist_Show_One_File=1
 let g:Tlist_WinWidth=25
 let g:Tlist_Enable_Fold_Column=0
 let g:Tlist_Auto_Highlight_Tag=1
+let g:Tlist_Auto_Open=1
 " NERDTree.vim
 let g:NERDTreeWinPos="right"
 let g:NERDTreeWinSize=25
